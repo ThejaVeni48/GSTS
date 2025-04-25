@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GSTS/static/css/main.ade482a4.css",
-    "main.js": "/GSTS/static/js/main.aa983154.js",
+    "main.css": "/GSTS/static/css/main.02c31053.css",
+    "main.js": "/GSTS/static/js/main.e693b641.js",
     "static/js/453.5cd65f79.chunk.js": "/GSTS/static/js/453.5cd65f79.chunk.js",
     "static/media/carouselImage10.jpg": "/GSTS/static/media/carouselImage10.a618db76eff05002e08a.jpg",
     "static/media/ServicesCOver.jpg": "/GSTS/static/media/ServicesCOver.d4e2036690be12b7bac7.jpg",
@@ -39,12 +39,12 @@
     "static/media/slick.ttf": "/GSTS/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/GSTS/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GSTS/index.html",
-    "main.ade482a4.css.map": "/GSTS/static/css/main.ade482a4.css.map",
-    "main.aa983154.js.map": "/GSTS/static/js/main.aa983154.js.map",
+    "main.02c31053.css.map": "/GSTS/static/css/main.02c31053.css.map",
+    "main.e693b641.js.map": "/GSTS/static/js/main.e693b641.js.map",
     "453.5cd65f79.chunk.js.map": "/GSTS/static/js/453.5cd65f79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ade482a4.css",
-    "static/js/main.aa983154.js"
+    "static/css/main.02c31053.css",
+    "static/js/main.e693b641.js"
   ]
 }
