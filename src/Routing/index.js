@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import HomePage from "../HomePage";
 import AboutPage from "../AboutPage";
 import Careers from "../Careers/careers";
@@ -10,13 +10,9 @@ import ScrollToTop from "../ScrollToTop";
 import PrivacyHome from "../PrivacyPolicy/PrivacyHome";
 import ErrorHome from "../ErrorPage/errorHome";
 
-
-
-
-
 const Navigate = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -28,9 +24,9 @@ const Navigate = () => {
         <Route path="/servicepage" element={<Services />} />
         <Route path="/servicepagen" element={<ServicesPageN />} />
         <Route path="/privacy" element={<PrivacyHome />} />
-        <Route path="*" element={<ErrorHome/>}/>
+        <Route path="*" element={<ErrorHome />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
