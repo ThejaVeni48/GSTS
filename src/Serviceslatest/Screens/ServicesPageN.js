@@ -12,7 +12,7 @@ const ServicesPageN = () => {
   const queryParams = new URLSearchParams(location.search);
   const initialTab = queryParams.get('tab')
     ? decodeURIComponent(queryParams.get('tab'))
-    : 'ERP Implementations';
+    : 'Application Integration Services';
   const initialSubTab = queryParams.get('subtab')
     ? decodeURIComponent(queryParams.get('subtab'))
     : 'Our Approach';
@@ -37,7 +37,7 @@ const ServicesPageN = () => {
   useEffect(() => {
     const newTab = queryParams.get('tab')
       ? decodeURIComponent(queryParams.get('tab'))
-      : 'ERP Implementations';
+      : 'Application Integration Services';
     const newSubTab = queryParams.get('subtab')
       ? decodeURIComponent(queryParams.get('subtab'))
       : 'Our Approach';

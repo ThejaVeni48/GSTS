@@ -129,6 +129,7 @@
         width: 90%;
         margin: 20px auto;
         border: 1px solid #cdcdcd;
+        box-shadow: none;
     }
 
     .serviceContainer,

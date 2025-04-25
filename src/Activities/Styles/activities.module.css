@@ -35,7 +35,8 @@ body {
     width: 100%;
     font-size: clamp(14px, 0.9vw, 22px);
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.7;
+    color: #555555;
 }
 
 .wrapper {
@@ -63,7 +64,8 @@ body {
 .content p {
     text-align: center;
     font-size: clamp(14px, 0.9vw, 22px);
-    line-height: 1.6;
+    line-height: 1.7;
+    color: #555555;
 }
 
 .title h5 {
@@ -119,6 +121,9 @@ body {
     .container {
         width: 80%;
         height: auto;
+    }
+    .innerContainer{
+        box-shadow: none;
     }
 
 }

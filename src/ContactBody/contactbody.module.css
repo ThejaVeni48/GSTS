@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 175vh;
+  min-height: 190vh;
 }
 
 .overlay h2 {
@@ -222,7 +222,7 @@ textarea {
     left: 5%;
   }
 }
-@media screen and (min-width:768px) and (max-width:1439px) {
+@media screen and (min-width:768px) and (max-width:1200px) {
   .parallaxSection {
     min-height: 130vh;
    }

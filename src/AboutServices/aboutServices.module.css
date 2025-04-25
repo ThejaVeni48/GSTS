@@ -8,7 +8,7 @@
   text-align: center;
   font-weight: bold;
   color: #1c3681;
-  font-size: clamp(16px, 0.9vw, 18px);
+  font-size: clamp(24px, 1.5vw, 48px);
 }
 
 #outerWrapper {
@@ -64,6 +64,14 @@ h6 {
 
 
 
+}
+.firstRow h5{
+  color: #1c3681;
+}
+.firstRow h6{
+  font-size: clamp(14px, 0.9vw, 22px);
+    line-height: 1.7;
+    color: #555555; 
 }
 
 #eachService2 .firstRow {
@@ -320,6 +328,7 @@ h6 {
 #eachService2 .firstRow {
   animation: slideFadeIn 1s ease-out;
   animation-delay: 0.5s;
+ 
 }
 
 .topBox,
