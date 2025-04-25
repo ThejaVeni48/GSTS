@@ -14,6 +14,12 @@ export default function ContactBody() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Validate message field
+    if (!message.trim()) {
+      alert("Please enter a message before submitting.");
+      return;
+    }
+
     const serviceId = "service_8ccpkl3";
     const templateId = "template_7a9sp8o";
     const publicKey = "1iTUM96xHer9u5iCR";
@@ -32,13 +38,13 @@ export default function ContactBody() {
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         alert("Message sent successfully!");
-        setFirstName("")
-        setLastName("")
-        setEmail("")
-        setPhone("")
-        setCompany("")
-        setServices("")
-        setMessage("")
+        setFirstName("");
+        setLastName("");
+        setEmail("");
+        setPhone("");
+        setCompany("");
+        setServices("");
+        setMessage("");
       })
       .catch((err) => {
         alert("Failed to send message. Please try again.");
@@ -126,7 +132,7 @@ export default function ContactBody() {
               <label>Message</label>
               <textarea
                 placeholder="Message"
-                style={{ width: '192%', height: '80px' }}
+                style={{ width: "192%", height: "80px" }}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />
